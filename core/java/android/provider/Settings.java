@@ -6974,6 +6974,13 @@ public final class Settings {
         public static final String TRANSIENT_TASK_MODE = "transient_task_mode";
 
         /**
+         * Give haptic feedback on qs brightness slider changes.
+         * @hide
+         */
+        @Readable
+        public static final String QS_BRIGHTNESS_SLIDER_HAPTIC_FEEDBACK = "qs_brightness_slider_haptic_feedback";
+
+        /**
          * IMPORTANT: If you add a new public settings you also have to add it to
          * PUBLIC_SETTINGS below. If the new setting is hidden you have to add
          * it to PRIVATE_SETTINGS below. Also add a validator that can validate
